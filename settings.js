@@ -10,17 +10,17 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 
-global.botNumber = '' 
+global.botNumber = '240555285007' 
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
 // <-- Número @s.whatsapp.net -->
 ['18094374392', 'Felix ofc', true],
-['573244642273', 'DuarteXV', true],
+['240555285007', 'Rufino ✝️', true],
   
 // <-- Número @lid -->
-  ['141807421759536', 'DuarteXV', true]
+  ['', '210200699113555', true]
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -90,7 +90,7 @@ global.comunidad1 = 'https://chat.whatsapp.com/GPfABUmCuVN2Qu1d1PPcBY'
 global.channel = 'https://whatsapp.com/channel/0029Vb73g1r1NCrTbefbFQ2T'
 global.channel2 = 'https://whatsapp.com/channel/0029VbBIilK7tkj7TROe690d'
 global.md = 'https://github.com/Brauliovh3/HATSUNE-MIKU'
-global.correo = 'duartexv.ofc@gmail.com' 
+global.correo = 'rufinofelipe495@gmail.com' 
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -107,9 +107,9 @@ global.rcanal = {
 }
 
 
-global.redes = 'https://whatsapp.com/channel/0029Vb73g1r1NCrTbefbFQ2T'
-global.dev = '© 🄿🄾🅆🄴🅁🄴🄳 DuarteXV'
-global.emoji = '⚽️'
+global.redes = 'https://whatsapp.com/channel/0029Vb6stJ2HwXb40WXDyn1U'
+global.dev = '© 🄿🄾🅆🄴🅁🄴🄳 Rufino '
+global.emoji = '✝️'
 global.emoji2 = '🏆'
 global.emoji3 = '🔥'
 
