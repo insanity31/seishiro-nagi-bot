@@ -1,2 +1,2 @@
-# Yuno-bot-
+# waguri-bot 
 Bot de WhatsApp 
