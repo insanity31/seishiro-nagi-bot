@@ -371,6 +371,6 @@ if (msg) return conn.reply(m.chat, msg, m, global.rcanal).then(_ => m.react('✖
 let file = global.__filename(import.meta.url, true)
 watchFile(file, async () => {
 unwatchFile(file)
-console.log(chalk.blueBright("🌸 Se actualizo 'handler.js' - Blue Lock Bot by DuarteXV"))
+console.log(chalk.blueBright("🌸 Se actualizo 'handler.js' - Waguri Bot by DuarteXV"))
 if (global.reloadHandler) console.log(await global.reloadHandler())
 })
