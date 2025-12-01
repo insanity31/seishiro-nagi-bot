@@ -356,7 +356,7 @@ console.log(m.message)
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: `🌸 El comando *${comando}* solo puede ser usado por DuarteXV (Creador).`, 
+rowner: `🌸 El comando *${comando}* solo puede ser usado por Rufino (Creador).`, 
 owner: `🌸 El comando *${comando}* solo puede ser usado por los desarrolladores del bot.`, 
 mods: `🌸 El comando *${comando}* solo puede ser usado por los moderadores del bot.`, 
 premium: `🌸 El comando *${comando}* solo puede ser usado por los usuarios premium.`, 
@@ -371,6 +371,6 @@ if (msg) return conn.reply(m.chat, msg, m, global.rcanal).then(_ => m.react('✖
 let file = global.__filename(import.meta.url, true)
 watchFile(file, async () => {
 unwatchFile(file)
-console.log(chalk.blueBright("🌸 Se actualizo 'handler.js' - Waguri Bot by DuarteXV"))
+console.log(chalk.blueBright("🌸 Se actualizo 'handler.js' - Waguri Bot by Rufino"))
 if (global.reloadHandler) console.log(await global.reloadHandler())
 })
