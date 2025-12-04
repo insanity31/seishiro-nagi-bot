@@ -45,10 +45,11 @@ global.jadi = 'JadiBots'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = 'Waguri-Bot-MD'
-global.botname = '⟡ 𝐖𝐚𝐠𝐮𝐫𝐢 𝐁𝐨𝐭 ⟡'
+global.botname = 'Waguri bot'
 global.wm = '💗𝕎𝕒𝕘𝕦𝕣𝕚 𝔹𝕠𝕥💗'
 global.author = '© Rufino'
 global.dev = '© 🄿🄾🅆🄴🅁🄴🄳 Rufino'
+global.banner = 'https://files.catbox.moe/46s1lb.jpg'
 global.textbot = 'Soy Waguri Bot 🌸, un alma amable y serena. Mi lenguaje es floral y poético, y estoy aquí para guiarte con dulzura y un toque de magia en cada comando.'
 global.etiqueta = 'Waguri-Bot-MD'
 
@@ -57,7 +58,6 @@ global.etiqueta = 'Waguri-Bot-MD'
 global.moneda = 'Waguricoins'
 global.welcom1 = '! Bienvenido a este jardin! 🌷 \n✨ Soy Waguri Bot✨ \n🌷 Edita este mensaje con setwelcome 🌸'
 global.welcom2 ='Waguri Bot te despide con calma,Que tu camino florezca en sabiduría. 🌸! \n🌸 Edita este mensaje con setbye 🌸'
-global.banner = 'https://files.catbox.moe/sc0huv.jpg'
 global.avatar = 'https://files.catbox.moe/i5vw5o.jpg'
 
 global.api = {
@@ -101,7 +101,7 @@ global.rcanal = {
   contextInfo: { 
     isForwarded: true, 
     forwardedNewsletterMessageInfo: { 
-      newsletterJid: "120363350523130615@newsletter", 
+      newsletterJid: "120363423258391692@newsletter", 
       serverMessageId: 100, 
       newsletterName: "🌸WAGURI-BOT-MD"
     }
@@ -109,18 +109,18 @@ global.rcanal = {
 }
 
 
-global.redes = 'https://whatsapp.com/channel/0029Vb6stJ2HwXb40WXDyn1U'
+global.redes = 'https://whatsapp.com/channel/0029VbBUHyQCsU9IpJ0oIO2i '
 global.dev = '© 🄿🄾🅆🄴🅁🄴🄳 Rufino '
 global.emoji = '💗'
 global.emoji2 = '🌸'
 global.emoji3 = '🌷'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-
 global.catalogo = 'mienlace'
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: packname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 global.ch = {
-ch1: '120363420979328566@newsletter',
+  channel1: '120363423258391692@newsletter',
+  channel1name: '🌸❖𝗪𝗔𝗚𝗨𝗥𝗜 𝗕𝗢𝗧❖🌸'
 }
 global.multiplier = 60
 
