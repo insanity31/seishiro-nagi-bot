@@ -52,7 +52,7 @@ let handler = async (m, { conn }) => {
     }
   }
 
-  let txt = `𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪ Lista de bots activos (*${sesiones}* sesiones)\n\n❖ Principales » *${totalPrincipales}*\n✰ Subs » *${totalSubs}*\n\n`
+  let txt = `✿ Lista de bots activos (*${sesiones}* sesiones)\n\n❖ Principales » *${totalPrincipales}*\n✰ Subs » *${totalSubs}*\n\n`
   txt += `❏ En este grupo: *${botsEnGrupo}*\n\n`
 
   if (botsEnGrupo > 0) {
