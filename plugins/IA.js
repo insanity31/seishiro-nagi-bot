@@ -48,7 +48,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 // Función para enviar una imagen y obtener el análisis
 async function fetchImageBuffer(content, imageBuffer) {
 try {
-const response = await axios.post('https://Luminai.my.id', {
+const response = await axios.post('https://rest.alyabotpe.xyz/ai/chatgpt', {
 content: content,
 imageBuffer: imageBuffer 
 }, {
@@ -62,7 +62,7 @@ throw error }}
 // Función para interactuar con la IA usando prompts
 async function luminsesi(q, username, logic) {
 try {
-const response = await axios.post("https://Luminai.my.id", {
+const response = await axios.post("https://rest.alyabotpe.xyz/ai/chatgpt", {
 content: q,
 user: username,
 prompt: logic,
