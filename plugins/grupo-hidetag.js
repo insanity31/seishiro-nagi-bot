@@ -56,7 +56,7 @@ try {
 
 handler.help = ['hidetag', 'anuncio']
 handler.tags = ['grupo']
-handler.command = ['hidetag', 'notificar', 'notify', 'tag', 'anuncio', 'waguri']
+handler.command = ['hidetag', 'notificar', 'notify', 'tag', 'anuncio']
 handler.group = true
 handler.admin = true
 
