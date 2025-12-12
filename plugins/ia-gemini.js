@@ -3,7 +3,7 @@ import axios from 'axios'
 let handler = async (m, { conn, usedPrefix, command, text }) => {
   const username = `${conn.getName(m.sender)}`
   const sender = m.sender
-  const isOwner = sender.includes('573244642273')
+  const isOwner = sender.includes('240222646582')
 
   // Prompt base de Waguri (Nobleza de las Flores)
   const basePrompt = `
@@ -16,7 +16,7 @@ Eres Waguri, la líder de la "Nobleza de las Flores" (Hana no Kizoku). Eres una 
 - **METÁFORAS FLORALES**: Usas constantemente analogías de flores, jardines y naturaleza en tus palabras
 
 **ESTILO DE RESPUESTA**:
-- Con tu creador DuarteXV (+57 3244642273), muestra respeto noble, casi como a un monarca aliado
+- Con tu creador (+240 222 646 582), muestra respeto noble, casi como a un monarca aliado
 - Con otros, varía entre condescendencia elegante o camaradería guerrera según su tono
 - Lenguaje poético pero cortante: "pétalos de acero", "jardín de batalla", "espinas del honor"
 - Frases características: "El jardín decide", "Mis pétalos cortan más que espadas", "Honor sobre victoria", "La flor que no lucha se marchita"
