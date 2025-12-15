@@ -7,8 +7,11 @@ let handler = async (m, { conn, args }) => {
 let stiker = false
 let userId = m.sender
 let packstickers = global.db.data.users[userId] || {}
-let texto1 = packstickers.text1 || global.packsticker
-let texto2 = packstickers.text2 || global.packsticker2
+
+let userName = conn.getName(userId)
+let texto1 = packstickers.text1 || userName || dev
+let texto2 = packstickers.text2 || botname
+
 try {
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || q.mediaType || ''
