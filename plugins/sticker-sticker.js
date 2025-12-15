@@ -8,9 +8,14 @@ let stiker = false
 let userId = m.sender
 let packstickers = global.db.data.users[userId] || {}
 
+
 let userName = conn.getName(userId)
-let texto1 = packstickers.text1 || userName || dev
-let texto2 = packstickers.text2 || botname
+let now = new Date()
+let fecha = now.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' })
+let hora = now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })
+
+let texto1 = packstickers.text1 || `✨ ${userName || dev} ✨`
+let texto2 = packstickers.text2 || `🌸 ${botname} • ${fecha} ${hora} 💮`
 
 try {
 let q = m.quoted ? m.quoted : m
