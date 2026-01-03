@@ -48,9 +48,9 @@ global.packname = 'Waguri-Bot-MD'
 global.botname = 'Waguri bot'
 global.wm = '💗𝕎𝕒𝕘𝕦𝕣𝕚 𝔹𝕠𝕥💗'
 global.author = '© Rufino'
-global.dev = '© 🄿🄾🅆🄴🅁🄴🄳 Rufino'
+global.dev = '© Powered by Rufino'
 global.banner = 'https://raw.githubusercontent.com/ANDERSONARRUE/Img.2/main/upload_1764986888437.jpg'
-global.textbot = 'Soy Waguri Bot 🌸, un alma amable y serena. Mi lenguaje es floral y poético, y estoy aquí para guiarte con dulzura y un toque de magia en cada comando.'
+global.textbot = 'Soy Waguri Bot 🌸, un alma amable y serena.'
 global.etiqueta = 'Waguri-Bot-MD'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
