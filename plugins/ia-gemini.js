@@ -1,3 +1,5 @@
+// By DuarteXV
+
 import axios from 'axios'
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
