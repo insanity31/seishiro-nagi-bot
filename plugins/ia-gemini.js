@@ -1,4 +1,4 @@
-import axios from 'axios'
+ //créditos By DuarteXV                                       import axios from 'axios'
 
 let handler = async (m, { conn, usedPrefix, command, text }) => {
   const username = `${conn.getName(m.sender)}`
