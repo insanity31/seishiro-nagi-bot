@@ -19,80 +19,76 @@ var handler = async (m, { conn, text }) => {
         who = m.chat;
     }
 
-    if (!who) return conn.reply(m.chat, `${emoji} Por favor, ingrese el tag de algún usuario o responda a un mensaje.`, m);
+    if (!who) return conn.reply(m.chat, `Menciona a alguien o responde a un mensaje.`, m);
 
     if (!userName) {
-        userName = text || 'Usuario desconocido';
+        userName = text || 'Usuario';
     }
 
-    let start = `🔍 *Iniciando escaneo...*`;
-    let progress = `*${pickRandom(['10','15','20','25','30'])}%* - Buscando huellas digitales`;
-    let progress2 = `*${pickRandom(['35','40','45','50','55'])}%* - Rastreando conexiones`;
-    let progress3 = `*${pickRandom(['60','65','70','75','80'])}%* - Analizando metadatos`;
-    let progress4 = `*${pickRandom(['85','88','92','95','97'])}%* - Compilando información`;
-    let progress5 = `*100%* - Escaneo completado`;
+    let start = `🔍 Iniciando escaneo...`;
+    let progress = `📡 ${pickRandom(['12%','18%','23%','29%','34%'])} - Buscando huellas`;
+    let progress2 = `📡 ${pickRandom(['41%','47%','52%','58%','63%'])} - Rastreando conexiones`;
+    let progress3 = `📡 ${pickRandom(['69%','74%','78%','83%','87%'])} - Analizando metadatos`;
+    let progress4 = `📡 ${pickRandom(['91%','94%','96%','98%','99%'])} - Compilando datos`;
+    let progress5 = `✅ 100% - Escaneo completado`;
 
     const { key } = await conn.sendMessage(m.chat, { text: `${start}` }, { quoted: m });
-    await delay(1200);
+    await delay(1000);
     await conn.sendMessage(m.chat, { text: `${progress}`, edit: key });
-    await delay(1200);
+    await delay(1000);
     await conn.sendMessage(m.chat, { text: `${progress2}`, edit: key });
-    await delay(1200);
+    await delay(1000);
     await conn.sendMessage(m.chat, { text: `${progress3}`, edit: key });
-    await delay(1200);
+    await delay(1000);
     await conn.sendMessage(m.chat, { text: `${progress4}`, edit: key });
-    await delay(1200);
+    await delay(1000);
     await conn.sendMessage(m.chat, { text: `${progress5}`, edit: key });
+    await delay(500);
 
-    let old = performance.now();
-    let neww = performance.now();
-    let speed = `${(neww - old).toFixed(2)}`;
-    
-    // Generar IP aleatoria más realista
     const ip = `${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}`;
-    
-    // ISP realistas
-    const isps = ['Claro', 'Movistar', 'Entel', 'Bitel', 'DirectTV', 'Telefónica', 'VTR', 'Tigo', 'Digitel'];
+    const isps = ['Claro', 'Movistar', 'Entel', 'Bitel', 'VTR', 'Tigo', 'Digitel', 'WOM', 'Personal'];
     const isp = pickRandom(isps);
-    
-    // Proveedores realistas
-    const providers = ['Google', 'Cloudflare', 'OpenDNS', 'Quad9', 'CleanBrowsing'];
-    const dns = pickRandom(providers);
-    
-    // Tipos de conexión realistas
-    const connectionTypes = ['Fibra óptica', 'ADSL', 'Cable módem', '4G/LTE', 'WiFi', 'Satelital'];
-    const connectionType = pickRandom(connectionTypes);
+    const ciudades = ['Lima', 'Bogotá', 'Buenos Aires', 'Santiago', 'Ciudad de México', 'Madrid', 'São Paulo'];
+    const ciudad = pickRandom(ciudades);
+    const proveedores = ['Google', 'Cloudflare', 'OpenDNS'];
+    const dns = pickRandom(proveedores);
+    const conexiones = ['Fibra óptica', 'ADSL', '4G/LTE', 'WiFi', 'Cable'];
+    const conexion = pickRandom(conexiones);
+    const dispositivos = ['Android', 'iPhone', 'Windows 10/11', 'MacOS', 'Linux'];
+    const dispositivo = pickRandom(dispositivos);
 
-    let doxeo = `👤 *Información de red obtenida* 
-═══════════════════════
+    let doxeo = `📊 *INFORME DE ESCANEO*
+━━━━━━━━━━━━━━━━━━
+📅 ${new Date().toLocaleDateString('es-ES')}
+⏰ ${new Date().toLocaleTimeString('es-ES', {hour: '2-digit', minute:'2-digit'})}
+━━━━━━━━━━━━━━━━━━
 
-📅 Fecha: ${new Date().toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
-⏰ Hora: ${new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}
+👤 *Usuario:* ${userName}
+🌐 *IP:* ${ip}
+📍 *Ubicación:* ${ciudad}
+📶 *ISP:* ${isp}
+🔌 *Conexión:* ${conexion}
+🖥️ *Dispositivo:* ${dispositivo}
 
-📊 *Datos técnicos:*
+🔧 *Configuración Red:*
+• DNS: ${dns}
+• Gateway: 192.168.${Math.floor(Math.random() * 10)}.1
+• Subnet: 255.255.255.0
+• Puertos: ${pickRandom(['443', '80', '22'])}
+• Latencia: ${Math.floor(Math.random() * 80) + 20}ms
+• Velocidad: ${Math.floor(Math.random() * 90) + 10} Mbps
 
-• *Nombre:* ${userName}
-• *IP Pública:* ${ip}
-• *ISP:* ${isp}
-• *Tipo de conexión:* ${connectionType}
-• *DNS primario:* ${dns}
-• *Gateway:* 192.168.${Math.floor(Math.random() * 255)}.1
-• *Máscara de subred:* 255.255.255.0
-• *Puertos abiertos:* ${pickRandom(['443 (HTTPS)', '80 (HTTP)', '22 (SSH)', '25 (SMTP)', '53 (DNS)'])}
-• *Latencia aproximada:* ${Math.floor(Math.random() * 100) + 20}ms
-• *Velocidad estimada:* ${Math.floor(Math.random() * 100) + 10} Mbps
-• *Tiempo de escaneo:* ${speed}ms
+📱 *Datos adicionales:*
+• Proxy: ${pickRandom(['No detectado', 'Configuración básica'])}
+• VPN: ${pickRandom(['Inactiva', 'No detectada'])}
+• Firewall: ${pickRandom(['Activo', 'Moderado'])}
+• Sistema: ${pickRandom(['Actualizado', 'Parcialmente actualizado'])}
+• Navegador: ${pickRandom(['Chrome', 'Firefox', 'Edge', 'Safari'])}
+• Hora local: ${new Date().getHours()}:${String(new Date().getMinutes()).padStart(2, '0')}
 
-⚠️ *Nota:* Esta información es simulada y generada aleatoriamente con fines de entretenimiento. No representa datos reales de ningún usuario.
+━━━━━━━━━━━━━━━━━━`;
 
-📍 *Ubicación aproximada:* Ciudad principal del país del ISP
-🛡️ *Estado del firewall:* ${pickRandom(['Activo', 'Moderado', 'Configuración básica'])}
-📱 *Dispositivo detectado:* ${pickRandom(['Smartphone', 'PC Windows', 'Mac', 'Linux', 'Tablet'])}
-
-═══════════════════════
-🔐 *Recuerda:* Protege siempre tu información personal y utiliza conexiones seguras.*`;
-
-    m.reply(doxeo, null, { mentions: conn.parseMention(doxeo) });
+    m.reply(doxeo);
 }
 
 handler.help = ['doxear'];
