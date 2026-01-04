@@ -24,37 +24,67 @@ let handler = async (m, { conn }) => {
 ✧˖°⊹ ─────────────── ⊹°˖✧
 
 ❀ /autoadmin
+> hace admin al bot
 ❀ /ping
 > comprueba el tiempo de respuesta 
 ❀/demote
+> descarta a un usuario como admin 
 ❀ /join
+> el bot se une a otro
 ❀/quitar prefijo
+> quita el prefijo de comandos 
 ❀/update
+> actulizar bot
 ❀ /setprefijo
+> poner prefijo de comandos 
 ❀/bots
+> ver listo de subbots 
 ❀/delprimary 
+> elimina el bot primario 
 ❀/delprimary2
+> elimina al segundo bot primario 
 ❀/leave
+> salir de un grupo 
 ❀/logotipo
+> poner logo
 ❀/reload
+> reactivar el bot
 ❀/setbanner
+> poner banner 
 ❀ /setcurrency
+> poner moneda 
 ❀/setname
+> poner nombre 
 ❀ /setprimary
+> elegir bot primario 
 ❀/tag
+menciana a todos los usuarios 
 ❀/play
+> descarga audio de YouTube 
 ❀/play2
+> descarga video de YouTube 
 ❀/invocar
+> invocar al grupo 
 ❀/sticker
+> hacer sticker
 ❀/kick
+> elimina a un usuario 
 ❀/waguri
+> habla con la iA waguri 
 ❀ /Pinterest
+> descarga archivos de pinterest 
 ❀ /gemini
+> habla con gemini 
 ❀ /copilot
+> habla con copilot 
 ❀ /apk
+> descarga una aplicación 
 ❀ /ig
+> descarga archivos de Instagram 
 ❀ /antilink
+> anti enlace 
 ❀ /tiktoksearch
+> busca un vídeo de tiktok 
 ✧˖°⊹ ─────────────── ⊹°˖✧
 `.trim()
 
@@ -88,4 +118,5 @@ function clockString(ms) {
   return `${hours}h ${minutes}m ${seconds}s`
 
 }
+
 
