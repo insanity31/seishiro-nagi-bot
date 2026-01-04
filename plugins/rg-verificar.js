@@ -40,7 +40,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   let regbot = `🌟 *¡REGISTRO EXITOSO!* 🌟\n\n👤 *Nombre:* ${name}\n🎂 *Edad:* ${age} años\n🆔 *ID:* ${sn}\n\n🌸 *¡Bienvenido/a al campo de Isagi Yoichi!* 🌸\n\n🎁 *Recompensas iniciales:*\n💰 +39 monedas\n✨ +300 XP\n🎟️ +20 tickets`
 
-  await m.react('⚽️')
+  await m.react('🌸')
 
   let thumbBuffer = null
   try {
