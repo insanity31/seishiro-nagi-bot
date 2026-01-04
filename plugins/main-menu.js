@@ -89,6 +89,8 @@ menciana a todos los usuarios
 > elimina un mensaje
 ❀ /reg
 > regístrate en el bot
+❀ /creador
+> lista de los creadores del bot
           🌸 𝐅𝐔𝐍 🌸
 ❀ /doxear
 > simula un doxeo
