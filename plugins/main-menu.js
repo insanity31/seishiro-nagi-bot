@@ -85,7 +85,7 @@ menciana a todos los usuarios
 > anti enlace 
 ❀ /tiktoksearch
 > busca un vídeo de tiktok 
-        🌸 𝐅𝐔𝐍 🌸
+          🌸 𝐅𝐔𝐍 🌸
 ❀ /doxear
 > simula un doxeo
 ✧˖°⊹ ─────────────── ⊹°˖✧
@@ -121,6 +121,7 @@ function clockString(ms) {
   return `${hours}h ${minutes}m ${seconds}s`
 
 }
+
 
 
 
