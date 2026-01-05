@@ -105,7 +105,7 @@ let handler = async (m, { conn, mentionedJid, args }) => {
 }
 
 handler.help = ['transferir', 'transfer', 'pay', 'pagar']
-handler.tags = ['rpg', 'economy']
+handler.tags = ['rpg']
 handler.command = /^(transferir|transfer|pay|pagar|enviar)$/i
 handler.group = true
 handler.register = true
