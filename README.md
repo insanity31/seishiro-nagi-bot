@@ -4,7 +4,7 @@
 
 > **Nota importante:** ⚠️ No disponible en Termux aún.
 
-Un bot para WhatsApp perezozo y que causa asombro a sus rivales con su control del balón. cada comando es una pieza del rompecabezas que hace que tus chats aburridas sean mas interesantes ¿verdad isagi?.
+Un bot para WhatsApp perezozo y que causa asombro a sus rivales con su control del balón. cada comando es una pieza del rompecabezas que hace que tus chats aburridos sean mas interesantes ¿verdad isagi?.
 
 ## ✨ Características
 
