@@ -1,26 +1,25 @@
-# Waguri Bot 🌸
+# nagi Bot ⚽
 
-![Waguri Bot](https://files.catbox.moe/i5vw5o.jpg)
+![nagi Bot](https://files.catbox.moe/8v6nra.jpg)
 
 > **Nota importante:** ⚠️ No disponible en Termux aún.
 
-Un bot para WhatsApp con esencia floral y un toque mágico. Waguri Bot está diseñado para hacer tus conversaciones más especiales con funciones útiles y encantadoras.
+Un bot para WhatsApp perezozo y que causa asombro a sus rivales con su control del balón. cada comando es una pieza del rompecabezas que hace que tus chats aburridas sean mas interesantes ¿verdad isagi?.
 
 ## ✨ Características
 
 - **Creación de stickers** - Convierte imágenes y videos en stickers al instante
-- **Más funciones mágicas** - Proximamente nuevas habilidades florecientes
-- **Interfaz amable** - Respuestas elegantes y poéticas
+- **Más funciones** - Proximamente nuevos regates
+
 - **Fácil de usar** - Comandos simples e intuitivos
 
 ## 🚀 Instalación
 
-*El jardín de Waguri aún está floreciendo... La compatibilidad con Termux llegará en futuras actualizaciones.*
+*nagi aun esta entrenando... La compatibilidad con Termux llegará en futuras actualizaciones.*
 
-## 🌸 Sobre Waguri
+## ⚽ Sobre nagi 
 
-Waguri Bot es más que un bot, es una compañera digital que trae calma y belleza a tus conversaciones. Cada comando es una semilla que crece en funcionalidades mágicas.
+Waguri Bot es más que un bot, es un amigo que trae diversión y utilidades a tus conversaciones. Cada comando lleva tiempo de preparación espero les guste el bot ❤️.
 
 ---
-
-*"Cada línea de código es un pétalo en el jardín digital" - Waguri Bot*
+*"No necesito comprensión. Sólo necesito el balón y la portería" - nagi Bot*
