@@ -21,6 +21,7 @@ let handler = async (m, { conn }) => {
 ˚ ♡ ⋆｡˚ Activo ⟢ ${uptime}
 ˚ ♡ ⋆｡˚ Usuarios ⟢ ${totalreg}
 ˚ ♡ ⋆｡˚ Biblioteca ⟢ Baileys
+˚ ♡ ⋆｡˚ Canal ⟢ https://whatsapp.com/channel/0029VbBUHyQCsU9IpJ0oIO2i
 ✧˖°⊹ ─────────────── ⊹°˖✧
       🌸 *HERRAMIENTAS* 🌸
 ❀ /autoadmin
@@ -58,13 +59,13 @@ let handler = async (m, { conn }) => {
 ❀ /setprimary
 > elegir bot primario 
 ❀ /tag
-> menciana a todos los usuarios 
+> menciana a todos los usuarios 
 ❀ /invocar
 > invocar al grupo 
 ❀ /sticker
 > hacer sticker
 ❀ /kick
-> elimina a un usuario  
+> elimina a un usuario  
 ❀ /antilink
 > anti enlace 
 ❀ /del
@@ -247,13 +248,3 @@ function clockString(ms) {
   return `${hours}h ${minutes}m ${seconds}s`
 
 }
-
-
-
-
-
-
-
-
-
-
