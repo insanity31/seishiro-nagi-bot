@@ -1,6 +1,6 @@
 # nagi Bot ⚽
 
-![nagi] (https://raw.githubusercontent.com/ANDERSONARRUE/Img.2/main/upload_1767756337954.gif)
+![nagi](https://raw.githubusercontent.com/ANDERSONARRUE/Img.2/main/upload_1767756337954.gif)
 
 > **Nota importante:** ⚠️ Actualmente no compatible con Termux.
 
