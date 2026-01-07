@@ -9,7 +9,7 @@ Un bot para WhatsApp perezozo y que causa asombro a sus rivales con su control d
 ## ✨ Características
 
 - **Creación de stickers** - Convierte imágenes y videos en stickers al instante
-- **Más funciones** - Proximamente nuevos regates
+- **Más funciones** - Proximamente
 
 - **Fácil de usar** - Comandos simples e intuitivos
 
@@ -19,7 +19,7 @@ Un bot para WhatsApp perezozo y que causa asombro a sus rivales con su control d
 
 ## ⚽ Sobre nagi 
 
-Waguri Bot es más que un bot, es un amigo que trae diversión y utilidades a tus conversaciones. Cada comando lleva tiempo de preparación espero les guste el bot ❤️.
+Nagi es más que un bot, es un amigo que trae diversión y utilidades a tus conversaciones. Cada comando lleva tiempo de preparación espero les guste el bot ❤️.
 
 ---
 *"No necesito comprensión. Sólo necesito el balón y la portería" - nagi Bot*
