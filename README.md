@@ -1,6 +1,6 @@
 # nagi Bot ⚽
 
-![nagi Bot](https://media.tenor.com/bamgsJBtcepAAAAC/nagi.gif)
+![nagi Bot](https://c.tenor.com/EDqtetGmpHwAAAAC/blue-lock-nagi-seishiro.gif)
 
 > **Nota importante:** ⚠️ Actualmente no compatible con Termux.
 
