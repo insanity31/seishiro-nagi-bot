@@ -2,7 +2,6 @@
 
 ![nagi](https://i.imgur.com/UiVKWxz.jpeg)
 
-> **Nota importante:** ⚠️ Actualmente no compatible con Termux.
 
 Un bot para WhatsApp perezoso pero impresionante, que domina el balón en tus conversaciones como un verdadero maestro del fútbol. Cada comando es una jugada preparada que convierte chats aburridos en experiencias divertidas. ¿Verdad que sí, Isagi?
 
