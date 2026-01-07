@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 var handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) {
-        return conn.reply(m.chat, `🌸 Por favor, ingresa un enlace de TikTok.\n\n📝 *Ejemplo:* ${usedPrefix}${command} https://www.tiktok.com/@usuario/video/1234567890`, m);
+        return conn.reply(m.chat, `⚽ Por favor, ingresa un enlace de TikTok.\n\n📝 *Ejemplo:* ${usedPrefix}${command} https://www.tiktok.com/@usuario/video/1234567890`, m);
     }
 
 
@@ -27,7 +27,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
         const caption = `✅ *Video de TikTok descargado*\n\n` +
                           `👤 *Autor:* ${author || 'Desconocido'}\n` +
                           `📹 *Título:* ${title || 'Sin título'}\n\n` +
-                          `🌸 *Descargado por waguri Bot*`;
+                          `⚽ *Descargado por nagi Bot*`;
 
             await conn.sendMessage(m.chat, {
                 video: { url: videoUrl },
